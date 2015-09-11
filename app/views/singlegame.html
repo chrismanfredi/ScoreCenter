@@ -1,0 +1,18 @@
+<div ng-app="scoreCenterApp" ng-controller="ScoresCtrl"> 
+	<div class="singlegameboxes">
+		<span><img ng-src="{{names[0].teamgroup_image}}" width="15%"></img> <img ng-src="{{names[1].teamgroup_image}}" width="15%"></img></span>
+		<span><p>{{names[0]['teamname_link/_text']}} @ {{names[1]['teamname_link/_text']}}</p></span>
+	</div>
+</div>
+
+<div class="jumbotron">
+	<div id="comments">
+		<div class="comment" ng-repeat="comment in comments">
+			<span><img class="profilepicture" ng-src="{{comment.picture}}"></img><b>{{comment.user}}:</b><br/> {{comment.msg}}</span>
+		</div>
+	</div>
+	<div id="textWrap">
+		<textarea ng-model="newComment.msg"></textarea>
+		<button ng-click="addComment()"> Comment</button>
+	</div>
+</div>

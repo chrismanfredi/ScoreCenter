@@ -1,0 +1,491 @@
+<pre> {{user | json}} </pre>
+<div ng-app="scoreCenterApp" ng-controller="ScoresCtrl"> 
+<pre> {{names[0] | json}}</pre>
+<h1> Game Scores For 9/08/15 </h1>
+<div class="row">
+	<!-- Game 1 -->
+	<div class="col-lg-4 games">
+		<table>
+			<tr>
+				<th>Final</th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>6</th>
+				<th>7</th>
+				<th>8</th>
+				<th>9</th>
+				<th>R</th>
+				<th>H</th>
+				<th>E</th>
+  			</tr>
+		    <tr>
+			    <td class="teamname"><img ng-src="{{names[0].teamgroup_image}}" class="teamlogo">{{names[0]['teamname_link/_text']}}</img></td>
+			    <td>{{names[0]['periods_number_1']}}</td>
+				<td>{{names[0]['periods_number_2']}}</td>
+			    <td>{{names[0]['periods_number_3']}}</td>
+			    <td>{{names[0]['periods_number_4']}}</td>
+			    <td>{{names[0]['periods_number_5']}}</td>
+			    <td>{{names[0]['periods_number_6']}}</td>
+			    <td>{{names[0]['periods_number_7']}}</td>
+			    <td>{{names[0]['periods_number_8']}}</td>
+			    <td>{{names[0]['periods_value']}}</td>
+			    <th>{{names[0]['outcomes_number_1/_source']}}</th>
+			    <th>{{names[0]['outcomes_number_2/_source']}}</th>
+			    <th>{{names[0]['outcomes_number_3/_source']}}</th>
+		    </tr>
+  			<tr>
+			    <td class="teamname"><img ng-src="{{names[1].teamgroup_image}}" class="teamlogo"></img>{{names[1]['teamname_link/_text']}}</td>
+			    <td>{{names[1]['periods_number_1']}}</td>
+				<td>{{names[1]['periods_number_2']}}</td>
+			    <td>{{names[1]['periods_number_3']}}</td>
+			    <td>{{names[1]['periods_number_4']}}</td>
+			    <td>{{names[1]['periods_number_5']}}</td>
+			    <td>{{names[1]['periods_number_6']}}</td>
+			    <td>{{names[1]['periods_number_7']}}</td>
+			    <td>{{names[1]['periods_number_8']}}</td>
+			    <td>{{names[1]['periods_value']}}</td>
+			    <th>{{names[1]['outcomes_number_1/_source']}}</th>
+			    <th>{{names[1]['outcomes_number_2/_source']}}</th>
+			    <th>{{names[1]['outcomes_number_3/_source']}}</th>
+  			</tr>
+		</table>
+		<table>
+			<button class="viewgamebtn"><a href="#/singlegame"> Comment </a></button>
+
+		
+		</table>
+	</div>	
+
+	<!-- Game 2 -->
+	<div class="col-lg-4 games">
+	<table>
+		<tr>
+			<th>Final</th>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>4</th>
+			<th>5</th>
+			<th>6</th>
+			<th>7</th>
+			<th>8</th>
+			<th>9</th>
+			<th>R</th>
+			<th>H</th>
+			<th>E</th>
+			</tr>
+ 	 	<tr>
+		    <td class="teamname"><img ng-src="{{names[2].teamgroup_image}}" class="teamlogo">{{names[2]['teamname_link/_text']}}</img></td>
+		    <td>{{names[2]['periods_number_1']}}</td>
+			<td>{{names[2]['periods_number_2']}}</td>
+		    <td>{{names[2]['periods_number_3']}}</td>
+		    <td>{{names[2]['periods_number_4']}}</td>
+		    <td>{{names[2]['periods_number_5']}}</td>
+		    <td>{{names[2]['periods_number_6']}}</td>
+		    <td>{{names[2]['periods_number_7']}}</td>
+		    <td>{{names[2]['periods_number_8']}}</td>
+		    <td>{{names[2]['periods_value']}}</td>
+		    <th>{{names[2]['outcomes_number_1/_source']}}</th>
+		    <th>{{names[2]['outcomes_number_2/_source']}}</th>
+		    <th>{{names[2]['outcomes_number_3/_source']}}</th>
+  		</tr>
+	    <tr>
+		    <td class="teamname"><img ng-src="{{names[3].teamgroup_image}}" class="teamlogo"></img>{{names[3]['teamname_link/_text']}}</td>
+		    <td>{{names[3]['periods_number_1']}}</td>
+			<td>{{names[3]['periods_number_2']}}</td>
+		    <td>{{names[3]['periods_number_3']}}</td>
+		    <td>{{names[3]['periods_number_4']}}</td>
+		    <td>{{names[3]['periods_number_5']}}</td>
+		    <td>{{names[3]['periods_number_6']}}</td>
+		    <td>{{names[3]['periods_number_7']}}</td>
+		    <td>{{names[3]['periods_number_8']}}</td>
+		    <td>{{names[3]['periods_value']}}</td>
+		    <th>{{names[3]['outcomes_number_1/_source']}}</th>
+		    <th>{{names[3]['outcomes_number_2/_source']}}</th>
+		    <th>{{names[3]['outcomes_number_3/_source']}}</th>
+	  	</tr>
+	</table>
+				<button class="viewgamebtn"><a href="#/singlegame"> Comment </a></button>
+
+	</div>	
+	
+	<!-- Game 3 -->
+	<div class="col-lg-4 games">
+		<table>
+			<tr>
+				<th>Final</th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>6</th>
+				<th>7</th>
+				<th>8</th>
+				<th>9</th>
+				<th>R</th>
+				<th>H</th>
+				<th>E</th>
+  			</tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[4].teamgroup_image}}" class="teamlogo">{{names[4]['teamname_link/_text']}}</img></td>
+    <td>{{names[4]['periods_number_1']}}</td>
+	<td>{{names[4]['periods_number_2']}}</td>
+    <td>{{names[4]['periods_number_3']}}</td>
+    <td>{{names[4]['periods_number_4']}}</td>
+    <td>{{names[4]['periods_number_5']}}</td>
+    <td>{{names[4]['periods_number_6']}}</td>
+    <td>{{names[4]['periods_number_7']}}</td>
+    <td>{{names[4]['periods_number_8']}}</td>
+    <td>{{names[4]['periods_value']}}</td>
+    <th>{{names[4]['outcomes_number_1/_source']}}</th>
+    <th>{{names[4]['outcomes_number_2/_source']}}</th>
+    <th>{{names[4]['outcomes_number_3/_source']}}</th>
+  </tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[5].teamgroup_image}}" class="teamlogo"></img>{{names[5]['teamname_link/_text']}}</td>
+    <td>{{names[5]['periods_number_1']}}</td>
+	<td>{{names[5]['periods_number_2']}}</td>
+    <td>{{names[5]['periods_number_3']}}</td>
+    <td>{{names[5]['periods_number_4']}}</td>
+    <td>{{names[5]['periods_number_5']}}</td>
+    <td>{{names[5]['periods_number_6']}}</td>
+    <td>{{names[5]['periods_number_7']}}</td>
+    <td>{{names[5]['periods_number_8']}}</td>
+    <td>{{names[5]['periods_value']}}</td>
+    <th>{{names[5]['outcomes_number_1/_source']}}</th>
+    <th>{{names[5]['outcomes_number_2/_source']}}</th>
+    <th>{{names[5]['outcomes_number_3/_source']}}</th>
+  </tr>
+</table>
+			<button class="viewgamebtn"><a href="#/singlegame"> Comment </a></button>
+
+	</div>	
+	
+	</div>
+
+
+<div class="row">
+	<!-- Game 4 -->
+	<div class="col-lg-4 games">
+		<table>
+			<tr>
+				<th>Final</th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>6</th>
+				<th>7</th>
+				<th>8</th>
+				<th>9</th>
+				<th>R</th>
+				<th>H</th>
+				<th>E</th>
+			</tr>
+	 	 	<tr>
+			    <td class="teamname"><img ng-src="{{names[6].teamgroup_image}}" class="teamlogo">{{names[6]['teamname_link/_text']}}</img></td>
+			    <td>{{names[6]['periods_number_1']}}</td>
+				<td>{{names[6]['periods_number_2']}}</td>
+			    <td>{{names[6]['periods_number_3']}}</td>
+			    <td>{{names[6]['periods_number_4']}}</td>
+			    <td>{{names[6]['periods_number_5']}}</td>
+			    <td>{{names[6]['periods_number_6']}}</td>
+			    <td>{{names[6]['periods_number_7']}}</td>
+			    <td>{{names[6]['periods_number_8']}}</td>
+			    <td>{{names[6]['periods_value']}}</td>
+			    <th>{{names[6]['outcomes_number_1/_source']}}</th>
+			    <th>{{names[6]['outcomes_number_2/_source']}}</th>
+			    <th>{{names[6]['outcomes_number_3/_source']}}</th>
+	  		</tr>
+		    <tr>
+			    <td class="teamname"><img ng-src="{{names[7].teamgroup_image}}" class="teamlogo"></img>{{names[7]['teamname_link/_text']}}</td>
+			    <td>{{names[7]['periods_number_1']}}</td>
+				<td>{{names[7]['periods_number_2']}}</td>
+			    <td>{{names[7]['periods_number_3']}}</td>
+			    <td>{{names[7]['periods_number_4']}}</td>
+			    <td>{{names[7]['periods_number_5']}}</td>
+			    <td>{{names[7]['periods_number_6']}}</td>
+			    <td>{{names[7]['periods_number_7']}}</td>
+			    <td>{{names[7]['periods_number_8']}}</td>
+			    <td>{{names[7]['periods_value']}}</td>
+			    <th>{{names[7]['outcomes_number_1/_source']}}</th>
+			    <th>{{names[7]['outcomes_number_2/_source']}}</th>
+			    <th>{{names[7]['outcomes_number_3/_source']}}</th>
+		  	</tr>
+	</table>
+				<button class="viewgamebtn"><a href="#/singlegame"> Comment </a></button>
+
+	</div>	
+	
+	<!-- Game 5 -->
+	<div class="col-lg-4 games">
+		<table>
+			<tr>
+				<th>Final</th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>6</th>
+				<th>7</th>
+				<th>8</th>
+				<th>9</th>
+				<th>R</th>
+				<th>H</th>
+				<th>E</th>
+  			</tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[8].teamgroup_image}}" class="teamlogo">{{names[8]['teamname_link/_text']}}</img></td>
+    <td>{{names[8]['periods_number_1']}}</td>
+	<td>{{names[8]['periods_number_2']}}</td>
+    <td>{{names[8]['periods_number_3']}}</td>
+    <td>{{names[8]['periods_number_4']}}</td>
+    <td>{{names[8]['periods_number_5']}}</td>
+    <td>{{names[8]['periods_number_6']}}</td>
+    <td>{{names[8]['periods_number_7']}}</td>
+    <td>{{names[8]['periods_number_8']}}</td>
+    <td>{{names[8]['periods_value']}}</td>
+    <th>{{names[8]['outcomes_number_1/_source']}}</th>
+    <th>{{names[8]['outcomes_number_2/_source']}}</th>
+    <th>{{names[8]['outcomes_number_3/_source']}}</th>
+  </tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[9].teamgroup_image}}" class="teamlogo"></img>{{names[9]['teamname_link/_text']}}</td>
+    <td>{{names[9]['periods_number_1']}}</td>
+	<td>{{names[9]['periods_number_2']}}</td>
+    <td>{{names[9]['periods_number_3']}}</td>
+    <td>{{names[9]['periods_number_4']}}</td>
+    <td>{{names[9]['periods_number_5']}}</td>
+    <td>{{names[9]['periods_number_6']}}</td>
+    <td>{{names[9]['periods_number_7']}}</td>
+    <td>{{names[9]['periods_number_8']}}</td>
+    <td>{{names[9]['periods_value']}}</td>
+    <th>{{names[9]['outcomes_number_1/_source']}}</th>
+    <th>{{names[9]['outcomes_number_2/_source']}}</th>
+    <th>{{names[9]['outcomes_number_3/_source']}}</th>
+  </tr>
+</table>
+			<button class="viewgamebtn"><a href="#/singlegame"> Comment </a></button>
+
+	</div>	
+
+	<div class="col-lg-4 games">
+<table>
+			<tr>
+				<th>Final</th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>6</th>
+				<th>7</th>
+				<th>8</th>
+				<th>9</th>
+				<th>R</th>
+				<th>H</th>
+				<th>E</th>
+  			</tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[10].teamgroup_image}}" class="teamlogo">{{names[10]['teamname_link/_text']}}</img></td>
+    <td>{{names[10]['periods_number_1']}}</td>
+	<td>{{names[10]['periods_number_2']}}</td>
+    <td>{{names[10]['periods_number_3']}}</td>
+    <td>{{names[10]['periods_number_4']}}</td>
+    <td>{{names[10]['periods_number_5']}}</td>
+    <td>{{names[10]['periods_number_6']}}</td>
+    <td>{{names[10]['periods_number_7']}}</td>
+    <td>{{names[10]['periods_number_8']}}</td>
+    <td>{{names[10]['periods_value']}}</td>
+    <th>{{names[10]['outcomes_number_1/_source']}}</th>
+    <th>{{names[10]['outcomes_number_2/_source']}}</th>
+    <th>{{names[10]['outcomes_number_3/_source']}}</th>
+  </tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[11].teamgroup_image}}" class="teamlogo"></img>{{names[11]['teamname_link/_text']}}</td>
+    <td>{{names[11]['periods_number_1']}}</td>
+	<td>{{names[11]['periods_number_2']}}</td>
+    <td>{{names[11]['periods_number_3']}}</td>
+    <td>{{names[11]['periods_number_4']}}</td>
+    <td>{{names[11]['periods_number_5']}}</td>
+    <td>{{names[11]['periods_number_6']}}</td>
+    <td>{{names[11]['periods_number_7']}}</td>
+    <td>{{names[11]['periods_number_8']}}</td>
+    <td>{{names[11]['periods_value']}}</td>
+    <th>{{names[11]['outcomes_number_1/_source']}}</th>
+    <th>{{names[11]['outcomes_number_2/_source']}}</th>
+    <th>{{names[11]['outcomes_number_3/_source']}}</th>
+  </tr>
+</table>
+			<button class="viewgamebtn"><a href="#/singlegame"> Comment </a></button>
+
+	</div>	
+
+</div>
+
+<div class="row">
+	<!-- Game 4 -->
+	<div class="col-lg-4 games">
+		<table>
+			<tr>
+				<th>Final</th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>6</th>
+				<th>7</th>
+				<th>8</th>
+				<th>9</th>
+				<th>R</th>
+				<th>H</th>
+				<th>E</th>
+			</tr>
+	 	 	<tr>
+			    <td class="teamname"><img ng-src="{{names[12].teamgroup_image}}" class="teamlogo">{{names[12]['teamname_link/_text']}}</img></td>
+			    <td>{{names[12]['periods_number_1']}}</td>
+				<td>{{names[12]['periods_number_2']}}</td>
+			    <td>{{names[12]['periods_number_3']}}</td>
+			    <td>{{names[12]['periods_number_4']}}</td>
+			    <td>{{names[12]['periods_number_5']}}</td>
+			    <td>{{names[12]['periods_number_6']}}</td>
+			    <td>{{names[12]['periods_number_7']}}</td>
+			    <td>{{names[12]['periods_number_8']}}</td>
+			    <td>{{names[12]['periods_value']}}</td>
+			    <th>{{names[12]['outcomes_number_1/_source']}}</th>
+			    <th>{{names[12]['outcomes_number_2/_source']}}</th>
+			    <th>{{names[12]['outcomes_number_3/_source']}}</th>
+	  		</tr>
+		    <tr>
+			    <td class="teamname"><img ng-src="{{names[13].teamgroup_image}}" class="teamlogo"></img>{{names[13]['teamname_link/_text']}}</td>
+			    <td>{{names[13]['periods_number_1']}}</td>
+				<td>{{names[13]['periods_number_2']}}</td>
+			    <td>{{names[13]['periods_number_3']}}</td>
+			    <td>{{names[13]['periods_number_4']}}</td>
+			    <td>{{names[13]['periods_number_5']}}</td>
+			    <td>{{names[13]['periods_number_6']}}</td>
+			    <td>{{names[13]['periods_number_7']}}</td>
+			    <td>{{names[13]['periods_number_8']}}</td>
+			    <td>{{names[13]['periods_value']}}</td>
+			    <th>{{names[13]['outcomes_number_1/_source']}}</th>
+			    <th>{{names[13]['outcomes_number_2/_source']}}</th>
+			    <th>{{names[13]['outcomes_number_3/_source']}}</th>
+		  	</tr>
+	</table>
+				<button class="viewgamebtn"><a href="#/singlegame"> Comment </a></button>
+
+	</div>	
+	
+	<!-- Game 5 -->
+	<div class="col-lg-4 games">
+		<table>
+			<tr>
+				<th>Final</th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>6</th>
+				<th>7</th>
+				<th>8</th>
+				<th>9</th>
+				<th>R</th>
+				<th>H</th>
+				<th>E</th>
+  			</tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[14].teamgroup_image}}" class="teamlogo">{{names[14]['teamname_link/_text']}}</img></td>
+    <td>{{names[14]['periods_number_1']}}</td>
+	<td>{{names[14]['periods_number_2']}}</td>
+    <td>{{names[14]['periods_number_3']}}</td>
+    <td>{{names[14]['periods_number_4']}}</td>
+    <td>{{names[14]['periods_number_5']}}</td>
+    <td>{{names[14]['periods_number_6']}}</td>
+    <td>{{names[14]['periods_number_7']}}</td>
+    <td>{{names[14]['periods_number_8']}}</td>
+    <td>{{names[14]['periods_value']}}</td>
+    <th>{{names[14]['outcomes_number_1/_source']}}</th>
+    <th>{{names[14]['outcomes_number_2/_source']}}</th>
+    <th>{{names[14]['outcomes_number_3/_source']}}</th>
+  </tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[15].teamgroup_image}}" class="teamlogo"></img>{{names[15]['teamname_link/_text']}}</td>
+    <td>{{names[15]['periods_number_1']}}</td>
+	<td>{{names[15]['periods_number_2']}}</td>
+    <td>{{names[15]['periods_number_3']}}</td>
+    <td>{{names[15]['periods_number_4']}}</td>
+    <td>{{names[15]['periods_number_5']}}</td>
+    <td>{{names[15]['periods_number_6']}}</td>
+    <td>{{names[15]['periods_number_7']}}</td>
+    <td>{{names[15]['periods_number_8']}}</td>
+    <td>{{names[15]['periods_value']}}</td>
+    <th>{{names[15]['outcomes_number_1/_source']}}</th>
+    <th>{{names[15]['outcomes_number_2/_source']}}</th>
+    <th>{{names[15]['outcomes_number_3/_source']}}</th>
+  </tr>
+</table>
+			<button class="viewgamebtn"><a href="#/singlegame"> Comment </a></button>
+
+	</div>	
+
+	<div class="col-lg-4 games">
+<table>
+			<tr>
+				<th>Final</th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>6</th>
+				<th>7</th>
+				<th>8</th>
+				<th>9</th>
+				<th>R</th>
+				<th>H</th>
+				<th>E</th>
+  			</tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[16].teamgroup_image}}" class="teamlogo">{{names[16]['teamname_link/_text']}}</img></td>
+    <td>{{names[16]['periods_number_1']}}</td>
+	<td>{{names[16]['periods_number_2']}}</td>
+    <td>{{names[16]['periods_number_3']}}</td>
+    <td>{{names[16]['periods_number_4']}}</td>
+    <td>{{names[16]['periods_number_5']}}</td>
+    <td>{{names[16]['periods_number_6']}}</td>
+    <td>{{names[16]['periods_number_7']}}</td>
+    <td>{{names[16]['periods_number_8']}}</td>
+    <td>{{names[16]['periods_value']}}</td>
+    <th>{{names[16]['outcomes_number_1/_source']}}</th>
+    <th>{{names[16]['outcomes_number_2/_source']}}</th>
+    <th>{{names[16]['outcomes_number_3/_source']}}</th>
+  </tr>
+  <tr>
+    <td class="teamname"><img ng-src="{{names[17].teamgroup_image}}" class="teamlogo"></img>{{names[17]['teamname_link/_text']}}</td>
+    <td>{{names[17]['periods_number_1']}}</td>
+	<td>{{names[17]['periods_number_2']}}</td>
+    <td>{{names[17]['periods_number_3']}}</td>
+    <td>{{names[17]['periods_number_4']}}</td>
+    <td>{{names[17]['periods_number_5']}}</td>
+    <td>{{names[17]['periods_number_6']}}</td>
+    <td>{{names[17]['periods_number_7']}}</td>
+    <td>{{names[17]['periods_number_8']}}</td>
+    <td>{{names[17]['periods_value']}}</td>
+    <th>{{names[17]['outcomes_number_1/_source']}}</th>
+    <th>{{names[17]['outcomes_number_2/_source']}}</th>
+    <th>{{names[17]['outcomes_number_3/_source']}}</th>
+  </tr>
+</table>
+			<button class="viewgamebtn"><a href="#/singlegame"> Comment </a></button>
+
+	</div>	
+
+</div>

@@ -1,0 +1,17 @@
+﻿Source page: http://espn.go.com/mlb/standings,
+team_link,team_link/_text,team_link/_title,number_1,number_2,value_1,value_2,center_number_1,center_number_2,number_3,number_4,number_5,value_3,number_6
+"http://espn.go.com/mlb/team/_/name/nym","New York MetsNYM","","74","59",".556","-","45; 24","29; 35","550","496","","W1","7; 3"
+"http://espn.go.com/mlb/team/_/name/wsh","Washington NationalsWSH","","66","65",".504","7","37; 26","29; 39","560","533","","L2","6; 4"
+"http://espn.go.com/mlb/team/_/name/mia","Miami MarlinsMIA","","55","79",".410","19.5","30; 36","25; 43","499","552","-53","W3","5; 5"
+"http://espn.go.com/mlb/team/_/name/atl","Atlanta BravesATL","","54","79",".406","20","33; 32","21; 47","479","629","-150","L8","1; 9"
+"http://espn.go.com/mlb/team/_/name/phi","Philadelphia PhilliesPHI","","53","81",".396","21.5","30; 35","23; 46","520","683","-163","L1","3; 7"
+"http://espn.go.com/mlb/team/_/name/stl","St. Louis CardinalsSTL","","86","46",".652","-","48; 19","38; 27","540","397","","W4","9; 1"
+"http://espn.go.com/mlb/team/_/name/pit","Pittsburgh PiratesPIT","","79","51",".608","6","46; 21","33; 30","550","472","","L2","7; 3"
+"http://espn.go.com/mlb/team/_/name/chc","Chicago CubsCHC","","75","57",".568","11","40; 28","35; 29","542","522","","L1","4; 6"
+"http://espn.go.com/mlb/team/_/name/mil","Milwaukee BrewersMIL","","56","75",".427","29.5","31; 39","25; 36","528","595","-67","W2","5; 5"
+"http://espn.go.com/mlb/team/_/name/cin","Cincinnati RedsCIN","","55","77",".417","31","29; 35","26; 42","529","589","-60","W1","4; 6"
+"http://espn.go.com/mlb/team/_/name/lad","Los Angeles DodgersLAD","","74","57",".565","-","46; 21","28; 36","534","469","","W2","7; 3"
+"http://espn.go.com/mlb/team/_/name/sf","San Francisco GiantsSF","","69","63",".523","5.5","38; 27","31; 36","565","505","","L4","3; 7"
+"http://espn.go.com/mlb/team/_/name/ari","Arizona DiamondbacksARI","","65","68",".489","10","31; 35","34; 33","599","572","","W2","3; 7"
+"http://espn.go.com/mlb/team/_/name/sd","San Diego PadresSD","","64","68",".485","10.5","32; 31","32; 37","542","584","-42","L1","4; 6"
+"http://espn.go.com/mlb/team/_/name/col","Colorado RockiesCOL","","53","78",".405","21","28; 38","25; 40","585","693","-108","L2","4; 6"
