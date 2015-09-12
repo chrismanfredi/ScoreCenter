@@ -31,7 +31,10 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "grunt serve",
     "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
   }
 }
