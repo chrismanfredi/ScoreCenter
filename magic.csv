@@ -1,4 +1,4 @@
-﻿Source page: http://espn.go.com/mlb/standings,
+﻿"express": "^4.13.3"Source page: http://espn.go.com/mlb/standings,
 team_link,team_link/_text,team_link/_title,number_1,number_2,value_1,value_2,center_number_1,center_number_2,number_3,number_4,number_5,value_3,number_6
 "http://espn.go.com/mlb/team/_/name/nym","New York MetsNYM","","74","59",".556","-","45; 24","29; 35","550","496","","W1","7; 3"
 "http://espn.go.com/mlb/team/_/name/wsh","Washington NationalsWSH","","66","65",".504","7","37; 26","29; 39","560","533","","L2","6; 4"
