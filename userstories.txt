@@ -1,0 +1,11 @@
+Chris Manfredi User Stories
+
+As				Conditional						I Want				So That
+
+a Guest			Who first comes to the site   	fast sports scores	I can stay updated
+
+a Member		Who signs up 					a reliable service	I can refer my friends
+
+a Developer		Who makes the app				happy users			they keep coming back
+
+						
