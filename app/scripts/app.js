@@ -8,9 +8,10 @@
  *
  * Main module of the application.
  */
-var app = angular.module('scoreCenterApp',['ngRoute', 'firebase']);
+var app = angular.module('scoreCenterApp',['ngRoute', 'firebase']);  // Making angular.module into variable app
 
-app.config(function ($routeProvider) {
+// My Routes for my app 
+app.config(function ($routeProvider) { 
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -34,8 +35,10 @@ app.config(function ($routeProvider) {
       });
 });
 
+// Headers for http pull request 
+
 app.config(['$httpProvider', function($httpProvider) {
-       $httpProvider.defaults.useXDomain = true;
+      $httpProvider.defaults.useXDomain = true;
       $httpProvider.defaults.withCredentials = true;
       delete $httpProvider.defaults.headers.common["X-Requested-With"];
       $httpProvider.defaults.headers.common['Accept'] = "application/json";

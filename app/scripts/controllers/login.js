@@ -23,15 +23,4 @@ app.controller('LoginCtrl', ['$scope', '$rootScope', '$location', '$firebaseAuth
 		  console.error("Authentication failed:", error);
 		});
     };
-
-    $scope.twitterlogin = function(){
-		$scope.authObj.$authWithOAuthPopup("twitter").then(function(authData) {
-		  console.log("Logged in as:", authData);
-		  $rootScope.user = authData.twitter;
-		  $location.path('/scores');
-		}).catch(function(error) {
-		  console.error("Authentication failed:", error);
-		});
-    };
 }]);
-
